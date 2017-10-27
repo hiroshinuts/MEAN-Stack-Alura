@@ -7,5 +7,7 @@ module.exports = function(app){
     //passa a função api.lista como parametro
     app.get('/v1/fotos', api.lista);
 
+    app.get('/v1/fotos/:id', api.buscaPorId);
+
 };
 
