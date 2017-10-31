@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsonwebtoken": "^5.4.1",
     "body-parser": "^1.14.1",
     "consign": "^0.1.2",
     "express": "^4.13.3",
-    "install": "^0.10.1",
     "mongoose": "^4.3.1"
   }
 }
